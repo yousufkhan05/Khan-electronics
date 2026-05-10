@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -50,10 +51,10 @@
             </div>
 
             <!-- Mobie and tablate screen -->
-            <div class="bg-yellow-300 p-4 flex justify-between lg:hidden">
-                <div class="flex items-center gap-1 font-extrabold text-3xl">
+            <div class="bg-yellow-300 px-4 py-3 flex justify-between  lg:hidden">
+                <div class="flex  items-center gap-5 font-extrabold text-3xl">
                     <i class="fa-solid fa-bars"></i>
-                    <h1>electro</h1>
+                    <h1 class="text-4xl">electro</h1>
                 </div>
 
                 <div class="flex items-center gap-4">
@@ -65,19 +66,32 @@
         </nav>
 
         <!-- LOgo and search box -->
-        <div class="px-4">
+        <div class="px-4 lg:flex justify-between mt-10 hidden ">
             <!-- Logo -->
-            <div class="flex items-center gap-10 font-extrabold text-3xl">
-                <h1>electro</h1>
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-            <!-- Seareh box -->
-            <div class="">
-
+            <div class="flex items-center gap-8 font-extrabold text-3xl">
+                <h1 class="text-5xl">electro</h1>
+                <i class="fa-solid fa-bars"></i>
             </div>
-            <!-- Icon -->
-            <div class="">
+            <!-- Seareh box -->
+            <div class="border-2 border-yellow-400 rounded-full pl-3  flex items-center justify-between gap-2 w-3/6">
+                <input type="text" placeholder="Search for Products "
+                    class="bg-transparent border-none focus:outline-none pl-4 ">
 
+                <div class="flex items-center gap-8">
+                    <h3 class="text-slate-400">
+                        All Categories <i class="fa-solid fa-angle-down"></i>
+                    </h3>
+
+                    <i class="fa-solid fa-magnifying-glass text-black bg-yellow-400 py-4  px-6 rounded-r-full w-"></i>
+                </div>
+            </div>
+
+            <!-- Icon -->
+            <div class="flex items-center gap-8 text-lg font-semibold">
+                <i class="fa-solid fa-rotate"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <h2>$1785.00</h2>
             </div>
         </div>
     </header>
